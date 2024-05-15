@@ -1,9 +1,7 @@
 #!/bin/sh
 
-mkdir v2ray-linux-64
-mv v2ray-linux-64.zip ./v2ray-linux-64
-cd v2ray-linux-64
 unzip v2ray-linux-64.zip
+cd v2ray-linux-64
 mkdir /usr/bin/v2ray/
 cp v2ray /usr/bin/v2ray/v2ray
 cp v2ctl /usr/bin/v2ray/v2ctl
